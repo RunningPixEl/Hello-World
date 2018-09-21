@@ -21,7 +21,7 @@ class Matrix:
 
 m = Matrix()
 
-l1 = [[1,0,0],[0,1,0],[0,0,1]]
-l2 = [[1,2,3],[3,4,6],[3,4,6]]
-l3 = [[9], [10], [11]]
+l1 = [[1,0,0],[0,1,0],[0,0,1]]		# A maxtrix which shape is (3, 3)
+l2 = [[1,2,3],[3,4,6],[3,4,6]]		# A maxtrix which shape is (3, 3)
+l3 = [[9], [10], [11]]			# A maxtrix which shape is (3, 1)
 print m.matrix(l1,l3)
